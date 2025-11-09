@@ -12,6 +12,10 @@ class OneBioCircleAPITester:
         self.tests_run = 0
         self.tests_passed = 0
         self.test_results = []
+        # Store test user credentials
+        self.timestamp = datetime.now().strftime('%H%M%S')
+        self.test_email = f"test{self.timestamp}@example.com"
+        self.test_password = "TestPass123!"
 
     def log_test(self, name, success, details=""):
         """Log test result"""
