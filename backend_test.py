@@ -71,11 +71,10 @@ class OneBioCircleAPITester:
 
     def test_user_registration(self):
         """Test user registration"""
-        timestamp = datetime.now().strftime('%H%M%S')
         test_user = {
-            "name": f"Test User {timestamp}",
-            "email": f"test{timestamp}@example.com",
-            "password": "TestPass123!",
+            "name": f"Test User {self.timestamp}",
+            "email": self.test_email,
+            "password": self.test_password,
             "age": 30,
             "gender": "Male",
             "timezone": "UTC"
