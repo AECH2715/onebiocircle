@@ -96,11 +96,10 @@ class OneBioCircleAPITester:
 
     def test_user_login(self):
         """Test user login with existing credentials"""
-        # Use the registered user credentials
-        timestamp = datetime.now().strftime('%H%M%S')
+        # Use the same credentials as registration
         login_data = {
-            "email": f"test{timestamp}@example.com",
-            "password": "TestPass123!"
+            "email": self.test_email,
+            "password": self.test_password
         }
         
         success, response = self.run_test(
