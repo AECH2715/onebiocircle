@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-11-09T14:31:23.258104",
+  "total_tests": 2,
+  "passed_tests": 1,
+  "success_rate": 50.0,
+  "test_results": [
+    {
+      "test": "User Registration",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "User Login",
+      "success": false,
+      "details": "Expected 200, got 401"
+    }
+  ]
+}
