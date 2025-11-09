@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-11-09T14:31:23.258104",
-  "total_tests": 2,
-  "passed_tests": 1,
-  "success_rate": 50.0,
+  "timestamp": "2025-11-09T14:31:50.959407",
+  "total_tests": 25,
+  "passed_tests": 25,
+  "success_rate": 100.0,
   "test_results": [
     {
       "test": "User Registration",
@@ -11,8 +11,123 @@
     },
     {
       "test": "User Login",
-      "success": false,
-      "details": "Expected 200, got 401"
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get User Profile",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Update User Profile",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Dashboard Stats",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Create Medication",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Medications",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Update Medication",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Delete Medication",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Create Meal",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Meals",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Delete Meal",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Create Workout",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Workouts",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Workout by Day",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Create Trip",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Trips",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Delete Trip",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Notification Preferences",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Update Notification Preferences",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Send Test Notification",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Notifications",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Create Consultation",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Consultations",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Update Prescription",
+      "success": true,
+      "details": ""
     }
   ]
 }
